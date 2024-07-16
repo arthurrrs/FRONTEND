@@ -1,12 +1,42 @@
-#cabecalhoMenu{
+body{
+    background-color: #7b601674;
+}
+
+
+.cabecalhoMenu{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-
+    background-color: rgba(201, 63, 63, 0.919);
 }
 
 .menu{
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
+
+.textoBlog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* tag para a imagem inicial */
+.badboys{
+    width: 300px;
+    height: 250px;
+}
+
+
+.posts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
