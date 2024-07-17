@@ -2,20 +2,6 @@ body{
     background-color: #7b601674;
 }
 
-
-.cabecalhoMenu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(201, 63, 63, 0.919);
-}
-
-.menu{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
 .textoBlog{
     display: flex;
     flex-direction: row;
@@ -25,18 +11,73 @@ body{
     padding-left: 50px;
 }
 
-/* tag para a imagem inicial */
-.badboys{
-    width: 300px;
-    height: 250px;
+.cabecalhoMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(201, 63, 63, 0.919);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
 }
 
+p, h1, h2, h3, time, summary, footer, a, li{
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+/* tag para a imagem inicial */
+.constantine{
+    width: 2500px;
+    height: 320px;
+}
+
+.textoInicial{
+    font-size: 30px;
+    padding-left: 50px;
+}
 
 .posts{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
+.photoPost{
+    width: 100px;
+    height: 150px;
+    padding-bottom: 10px;
+}
+
+.tituloPosts{
+    display: flex;
+    justify-content: center;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudoPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+}
