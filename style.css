@@ -33,7 +33,7 @@ p, h1, h2, h3, time, summary, footer, a, li{
 }
 
 
-/* tag para a imagem inicial */
+
 .badboys{
     width: 2500px;
     height: 320px;
@@ -81,3 +81,9 @@ footer{
     justify-content: center;
     padding-left: 25px;
 }
+
+.capaprincipal{
+    width: 25px;
+    height: 32px;
+}
+
